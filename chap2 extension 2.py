@@ -1,0 +1,43 @@
+import turtle
+
+turtle.bgcolor('black')
+shelly = turtle.Turtle()
+
+for n in range(36):
+    shelly.penup()
+    shelly.color('red')
+    shelly.forward(200)
+    shelly.pendown()
+    shelly.circle(8)
+    shelly.penup()
+    shelly.backward(20)
+    shelly.color('yellow')
+    shelly.pendown()
+    shelly.circle(7)
+    shelly.penup()
+    shelly.backward(20)
+    shelly.color('blue')
+    shelly.pendown()
+    shelly.circle(6)
+    shelly.penup()
+    shelly.backward(20)
+    shelly.color('orange')
+    shelly.pendown()
+    shelly.circle(5)
+    shelly.penup()
+    shelly.backward(20)
+    shelly.color('green')
+    shelly.pendown()
+    shelly.circle(4)
+    shelly.penup()
+    shelly.backward(20)
+    shelly.color('white')
+    shelly.pendown()
+    shelly.circle(3)
+    shelly.penup()
+    shelly.backward(100)
+    shelly.right(10)
+
+shelly.hideturtle()
+    
+        
